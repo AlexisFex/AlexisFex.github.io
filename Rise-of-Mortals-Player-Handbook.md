@@ -3457,9 +3457,9 @@ When the old shadow style fell to a rogue mage, it was reformed — into a style
 
 **Stance — Shade:** when your turn starts, you may immediately evade, or clear one negative condition on you. Using this forbids you from making hostile moves and from starting, continuing or finishing a spell this turn.
 
-**1. Simple moon** — when you evade, you may settle into a counter-guard that lasts until you move, are moved, or make a hostile move: the first enemy to enter your reach eats an immediate attack with *armor destroyer*.
+**1. Simple moon** — when you evade, you can enter a stance until you move\are moved\make a hostile move. While in this stance the first time an enemy enters your reach, you may immediately attack them. This attack gains *armor destroyer*.
 
-**2. Dark horizon** — while in *simple moon*, if you are targeted by — or caught in the area of — a spell or mana-spending ability, you may exit the counter-guard and **cancel the ability**. You take 1 damage and become weakened until the start of your next turn.
+**2. Dark horizon** — while in *simple moon*, if you are targeted by — or caught in the area of — a spell or mana-spending ability, you may exit the *simple moon* and **cancel the triggering spell\ability**. You take 1 damage and become weakened until the start of your next turn.
 
 **3. Quick midnight** — attacking through *simple moon*, or using *dark horizon*, earns you a charge of **midnight**. Spend a charge when attacking to strike at the creature's **base evasion**, ignoring every increase and decrease — or spend it on a hit to **end one non-permanent effect** on the target.
 
