@@ -4753,12 +4753,6 @@ you may spend 1 **fate token** to re-roll the fate dice, choosing either result
 
 **3. Fateweaver** — when a round starts, you may roll the d4 to determine **your own** fate for free. Studying another's fate can be paid with **2 doom tokens** given to the Qg instead of the move. And whenever the Qg spends a doom token, you gain a **fate token**.
 
-#### The Supplier
-
-*Support, Versatile*
-
-*Still in development.*
-
 ## The Full Spell List
 
 Every spell in Rise of Mortals, organized by purpose: defense, offense, control, support and summoning. Each school's starting talent defines which of these spells sit on your spell list.
