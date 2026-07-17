@@ -1,5 +1,3 @@
-# AlexisFex.github.io
-TTRPG Player Handbook
 # Rise of Mortals — A Roleplay System
 
 ## Table of Contents
