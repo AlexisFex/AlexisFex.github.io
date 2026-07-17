@@ -3674,7 +3674,7 @@ Few mages ever reach these greatest heights of mana manipulation — but those w
 
 **2. Forbidden strength** — you learn one **legendary** spell.
 
-**3. Unlimited casting** — after using *calm mind*, you may declare your next spell **unlimited**: it can be **any spell you know, no matter its mana cost**. Instead of paying that cost, your mana drops to 0 — and every point of mana you actually spent is added to the spell's **casting time** (spend 20 mana, and the spell takes 20 more moves to cast). Sooner or later, the ritual ends — and the world remembers why archmages are feared.
+**3. Unlimited casting** — after using *calm mind*, you may declare your next spell **unlimited**: it can be **any spell you know, no matter its mana cost**. Instead of paying orginal mana cost, you don't pay mana cost at all.
 
 ##### The Mana Artillery
 
