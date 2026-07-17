@@ -5744,7 +5744,7 @@ Choose a creature within 15 meters (yourself included): it gains **+1d12 to all 
 
 ##### Increased reflexes
 
-*Advanced · 6 mana · 2 moves · 30 seconds (2 rounds)*
+*Advanced · 6 mana · 2 moves · 1 minute (4 rounds)*
 
 Choose a creature within 10 meters: it gains **+1 evasion**.
 
