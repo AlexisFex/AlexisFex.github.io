@@ -4769,11 +4769,17 @@ Every spell in Rise of Mortals, organized by purpose: defense, offense, control,
 
 This spell is cast without spending additional moves, as part of a **guard**. You create a small air bubble with 3 resilience: the attack you guarded against deals its damage to the bubble first — any leftover damage reaches you as normal.
 
-##### Barrier
+##### Earth wall
 
-*Legendary · 25 mana · 1 move · 1 minute (4 rounds)*
+*Beginner · 4 mana · 3 moves · 10 minutes (40 rounds)*
 
-You create a wall of hardened mana and pure willpower — 1 meter wide, up to 10 meters tall and up to 40 meters long, with 0 evasion and **200 resilience**. The wall is immune to all negative conditions and continual damage effects. Creatures caught in its path are pushed to either side (the caster's choice) — and you may knock any pushed creature **prone**.
+You create a wall 1 meter wide, 10 meters long and 3 meters tall, within 5 meters of you — with −1 damage reduction, 0 evasion and 15 resilience, immune to bleed. Creatures caught in its path are pushed to either side (the caster's choice).
+
+##### Shield wall
+
+*Beginner · 3 mana · 4 moves · 45 seconds (3 rounds)*
+
+You conjure an astral wall of warriors holding two-handed shields. The wall is made of **3 size-2 warriors**: each must stand within 1 meter of at least one other, and one of them within 1 meter of you. A warrior cannot pass through walls or creatures of size 1 or larger. Each has 2 evasion, −1 damage reduction and 6 resilience — and the spell does not end when one is killed.
 
 ##### Aegis shield
 
@@ -4781,11 +4787,17 @@ You create a wall of hardened mana and pure willpower — 1 meter wide, up to 10
 
 You summon forth a regiment of ethereal soldiers to form a blockade. You summon up to **3 soldiers**, each of size 3; every soldier must be adjacent to at least one other when summoned. They cannot pass through walls or other creatures' spaces. Each soldier has 3 evasion, −2 damage reduction and 10 resilience — and the spell does not end when one of them is killed.
 
-##### Earth wall
+##### Mirror shield
 
-*Beginner · 4 mana · 3 moves · 10 minutes (40 rounds)*
+*Advanced · 6 mana · 4 moves · 30 seconds (2 rounds)*
 
-You create a wall 1 meter wide, 10 meters long and 3 meters tall, within 5 meters of you — with −1 damage reduction, 0 evasion and 15 resilience, immune to bleed. Creatures caught in its path are pushed to either side (the caster's choice).
+When you finish casting, choose a free space within 1 meter of you: a mirror shield forms there. For the spell's duration, any ranged attack or spell attack that passes through that space before reaching its target is **reflected back at the attacker** — rolled with your spell attack roll, but keeping all the original attack's properties, damage tags and on-hit effects.
+
+##### Thorn wall
+
+*Advanced · 7 mana · 3 moves · 5 minutes (20 rounds)*
+
+You create a wall of thorns and spiky vegetation — 1 meter wide, 15 meters long, 5 meters tall, with 0 evasion and 30 resilience. Creatures **pushed onto** the wall take 2 damage with the *light* and *bleed* traits. Creatures standing in the wall's space as it forms must succeed on a power or speed check (test score 1) — or be **restrained** by the wall until it is destroyed.
 
 ##### Ice wall
 
@@ -4795,29 +4807,11 @@ You create a wall 2 meters wide, 3 meters tall and 10 meters long. Creatures cau
 
 The wall has 20 resilience, takes **double damage** from armor destroying and fire damage — and is immune to all damage that isn't physical, fire, electric or armor destroying.
 
-##### Mirror shield
-
-*Advanced · 6 mana · 4 moves · 30 seconds (2 rounds)*
-
-When you finish casting, choose a free space within 1 meter of you: a mirror shield forms there. For the spell's duration, any ranged attack or spell attack that passes through that space before reaching its target is **reflected back at the attacker** — rolled with your spell attack roll, but keeping all the original attack's properties, damage tags and on-hit effects.
-
 ##### Obsidian wall
 
 *Master · 11 mana · 4 moves · 10 minutes (40 rounds)*
 
 You raise a wall of dark stone reinforced with minerals — 3 meters wide, up to 7 meters tall and up to 20 meters long, with **−4 damage reduction**, 0 evasion and 50 resilience, immune to bleed. Creatures caught in its path are pushed to either side (the caster's choice).
-
-##### Shield wall
-
-*Beginner · 3 mana · 4 moves · 45 seconds (3 rounds)*
-
-You conjure an astral wall of warriors holding two-handed shields. The wall is made of **3 size-2 warriors**: each must stand within 1 meter of at least one other, and one of them within 1 meter of you. A warrior cannot pass through walls or creatures of size 1 or larger. Each has 2 evasion, −1 damage reduction and 6 resilience — and the spell does not end when one is killed.
-
-##### Thorn wall
-
-*Advanced · 7 mana · 3 moves · 5 minutes (20 rounds)*
-
-You create a wall of thorns and spiky vegetation — 1 meter wide, 15 meters long, 5 meters tall, with 0 evasion and 30 resilience. Creatures **pushed onto** the wall take 2 damage with the *light* and *bleed* traits. Creatures standing in the wall's space as it forms must succeed on a power or speed check (test score 1) — or be **restrained** by the wall until it is destroyed.
 
 ##### Whirlwind bunker
 
@@ -4825,73 +4819,13 @@ You create a wall of thorns and spiky vegetation — 1 meter wide, 15 meters lon
 
 This spell is cast as part of an **intercept** move against an attack. You automatically succeed the interception — and push the attacker, plus any other creatures of your choice within 15 meters of you, **20 meters back**. Until the spell ends, the 15-meter radius around you counts as **abstract cover** against ranged attacks, and as **harsh terrain** for enemies.
 
+##### Barrier
+
+*Legendary · 25 mana · 1 move · 1 minute (4 rounds)*
+
+You create a wall of hardened mana and pure willpower — 1 meter wide, up to 10 meters tall and up to 40 meters long, with 0 evasion and **200 resilience**. The wall is immune to all negative conditions and continual damage effects. Creatures caught in its path are pushed to either side (the caster's choice) — and you may knock any pushed creature **prone**.
+
 #### Damage resisting spells
-
-##### Armor of gaia
-
-*Legendary · 12 mana · 4 moves · 30 seconds (2 rounds)*
-
-A projection of magical armor wraps around you, or another creature within 5 meters. For the duration, attacks targeting this creature lose the *armor breaker* and *armor destroyer* traits, and AoE attacks **do not ignore** its damage reduction. It also gains **−2 damage reduction** that stacks with other reduction effects — and regains **half its unphased** (rounded down) at the start of each round.
-
-##### Aura of protection
-
-*Advanced · 6 mana · 3 moves · 1 minute (4 rounds)*
-
-You exude a protective aura, 5 meters in radius. Allies of your choice inside it gain **−1 damage reduction and +1 to resist rolls**. You cannot gain these benefits yourself.
-
-##### Death memento
-
-*Master · 8 mana · 1 move · 1 hour (240 rounds)*
-
-You mark one creature within 5 meters as you finish casting. The first time a **killing blow** would be performed on that creature — or it would otherwise die — it is instead immediately raised with **3 resilience**, and stays immune to damage until the start of its next turn.
-
-##### Elemental shield
-
-*Beginner · 3 mana · 2 moves · 1 minute (4 rounds)*
-
-You place a ward against the elements on yourself or a creature within 5 meters: the target becomes **immune to the effects** of one damage tag of your choice — *fire*, *electric* or *frost*.
-
-##### Force cloak
-
-*Advanced · 5 mana · 2 moves · 1 hour (240 rounds)*
-
-You wrap yourself, or a creature within 1 meter, in a protective layer against physical force: the target gains **5 temporary resilience** — and while any of it remains, their movement cannot be lowered, and they cannot be restrained by other creatures.
-
-##### Force projection
-
-*Master · 9 mana · 1 move · 15 seconds (1 round)*
-
-Choose one creature within 15 meters: it is **pushed or pulled 30 meters** directly away from or towards you, and falls **prone**. For the spell's duration, any damage that creature deals to you is reduced to **1**.
-
-##### Grand sanctuary
-
-*Legendary · 15 mana · 4 moves · 10 minutes (40 rounds)*
-
-You conjure the visage of a defensive building, projecting a 10-meter aura around you. Creatures of your choice gain **−1 damage reduction** while inside — and regain **3 unphased** when they end their turn in the aura.
-
-##### Greater revenge
-
-*Master · 5 mana · 3 moves · 15 seconds (1 round)*
-
-Choose a creature within 5 meters (yourself included): every time it takes damage, it gains an additional **2d6 on its next hostile move**. For every 2d6 gained, it also carries **−1 damage reduction** until the start of its next turn.
-
-##### Guardian spirit
-
-*Advanced · 7 mana · 3 moves · 30 seconds (2 rounds)*
-
-You summon a defender spirit — 30 resilience, 0 evasion, −1 damage reduction. When an attack hits you, the defender **takes the damage instead**. It still takes AoE damage normally, but never absorbs AoE damage in your place. If the defender's resilience hits 0, you take **4 damage to your resilience**.
-
-##### Lesser revenge
-
-*Beginner · 1 mana · 2 moves · 1 minute (4 rounds)*
-
-Choose a creature within 5 meters (yourself included): every time it takes damage, it gains an additional **1d4 on its next hostile move**. For every 2d4 gained, it also carries −1 damage reduction until the start of its next turn.
-
-##### Safe harbor
-
-*Beginner · 2 mana · 3 moves · 1 minute (4 rounds)*
-
-You create a zone of peace, 5 meters in radius around you. Creatures inside it that made **no hostile move** on their turn this round gain **−1 damage reduction and +1 evasion** while they remain in the zone.
 
 ##### Spell ward
 
@@ -4904,6 +4838,72 @@ One creature within your line of sight gains **−1 damage reduction**.
 *Beginner · 4 mana · 3 moves · 15 seconds (1 round)*
 
 You gain a spirit shield that reduces the **next damage you take to 0** — or place it on a creature or object within 5 meters instead.
+
+##### Safe harbor
+
+*Beginner · 2 mana · 3 moves · 1 minute (4 rounds)*
+
+You create a zone of peace, 5 meters in radius around you. Creatures inside it that made **no hostile move** on their turn this round gain **−1 damage reduction and +1 evasion** while they remain in the zone.
+
+##### Elemental shield
+
+*Beginner · 3 mana · 2 moves · 1 minute (4 rounds)*
+
+You place a ward against the elements on yourself or a creature within 5 meters: the target becomes **immune to the effects** of one damage tag of your choice — *fire*, *electric* or *frost*.
+
+##### Lesser revenge
+
+*Beginner · 1 mana · 2 moves · 1 minute (4 rounds)*
+
+Choose a creature within 5 meters (yourself included): every time it takes damage, it gains an additional **1d4 on its next hostile move**. For every 2d4 gained, it also carries −1 damage reduction until the start of its next turn.
+
+##### Aura of protection
+
+*Advanced · 6 mana · 3 moves · 1 minute (4 rounds)*
+
+You exude a protective aura, 5 meters in radius. Allies of your choice inside it gain **−1 damage reduction and +1 to resist rolls**. You cannot gain these benefits yourself.
+
+##### Guardian spirit
+
+*Advanced · 7 mana · 3 moves · 30 seconds (2 rounds)*
+
+You summon a defender spirit — 30 resilience, 0 evasion, −1 damage reduction. When an attack hits you, the defender **takes the damage instead**. It still takes AoE damage normally, but never absorbs AoE damage in your place. If the defender's resilience hits 0, you take **4 damage to your resilience**.
+
+##### Force cloak
+
+*Advanced · 5 mana · 2 moves · 1 hour (240 rounds)*
+
+You wrap yourself, or a creature within 1 meter, in a protective layer against physical force: the target gains **5 temporary resilience** — and while any of it remains, their movement cannot be lowered, and they cannot be restrained by other creatures.
+
+##### Death memento
+
+*Master · 8 mana · 1 move · 1 hour (240 rounds)*
+
+You mark one creature within 5 meters as you finish casting. The first time a **killing blow** would be performed on that creature — or it would otherwise die — it is instead immediately raised with **3 resilience**, and stays immune to damage until the start of its next turn.
+
+##### Force projection
+
+*Master · 9 mana · 1 move · 15 seconds (1 round)*
+
+Choose one creature within 15 meters: it is **pushed or pulled 30 meters** directly away from or towards you, and falls **prone**. For the spell's duration, any damage that creature deals to you is reduced to **1**.
+
+##### Greater revenge
+
+*Master · 5 mana · 3 moves · 15 seconds (1 round)*
+
+Choose a creature within 5 meters (yourself included): every time it takes damage, it gains an additional **2d6 on its next hostile move**. For every 2d6 gained, it also carries **−1 damage reduction** until the start of its next turn.
+
+##### Grand sanctuary
+
+*Legendary · 15 mana · 4 moves · 10 minutes (40 rounds)*
+
+You conjure the visage of a defensive building, projecting a 10-meter aura around you. Creatures of your choice gain **−1 damage reduction** while inside — and regain **3 unphased** when they end their turn in the aura.
+
+##### Armor of gaia
+
+*Legendary · 12 mana · 4 moves · 30 seconds (2 rounds)*
+
+A projection of magical armor wraps around you, or another creature within 5 meters. For the duration, attacks targeting this creature lose the *armor breaker* and *armor destroyer* traits, and AoE attacks **do not ignore** its damage reduction. It also gains **−2 damage reduction** that stacks with other reduction effects — and regains **half its unphased** (rounded down) at the start of each round.
 
 #### Condition negation spells
 
@@ -5413,7 +5413,7 @@ You raise a circle of flowers with a calming aroma — 5 meters in radius, at a 
 
 *Beginner · 2 mana · 2 moves · permanent*
 
-You grow a 3×3 meter bush that serves as **abstract cover**. Creatures hiding in it gain **+2d8** to their rolls.
+You grow a 3×3 meter bush that serves as **abstract cover**. Creatures trying to hide in it gain **+2d8** to their rolls.
 
 ##### Innocent fog
 
