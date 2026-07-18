@@ -3672,7 +3672,7 @@ Few mages ever reach these greatest heights of mana manipulation — but those w
 
 **2. Forbidden strength** — you learn one **legendary** spell.
 
-**3. Unlimited casting** — after using *calm mind*, you may declare your next spell **unlimited**: it can be **any spell you know, no matter its mana cost**. Instead of paying orginal mana cost, you don't pay mana cost at all.
+**3. Unlimited casting** — after using *calm mind*, the next spell you cast costs **no mana** at all — any spell you know, no matter its cost.
 
 ##### The Mana Artillery
 
@@ -3836,9 +3836,13 @@ You may empower the touch: every **4 mana** adds +1 die to your roll (of your ca
 - −1 damage: +5 movement;
 - −1 damage: +1 temporary unphased;
 - −2 damage: +1 evasion;
-- −2 damage: the next spell you cast costs 3 less mana (to a minimum of half its original price).
+- −2 damage: the next spell you cast costs 3 less mana (to a minimum of half its original price);
+- −2 damage: +1d8 on your next roll against this creature;
+- −3 damage: you may fly until the end of your next turn.
 
-**3. Self perfection** — once per day, you may enter a **transcended state** for 1 minute: the mana cost of both *cursed touch* enhancements drops by 2 — and any effect of yours that requires **touch** works within **20 meters and line of sight**.
+These effects don't stack, you may pick **up to three** per activation, and they last until you go to rest.
+
+**3. Self perfection** — once per day, you may enter a **transcended state** for 1 minute: the mana cost of *cursed touch* itself and of both its enhancements drops by 2 — and any effect of yours that requires **touch** works within **20 meters and line of sight**.
 
 ##### The Elemental Master
 
@@ -3876,7 +3880,7 @@ Traveling blacksmiths, known far and wide for their proficiency in protection an
 **1. Hearth mender** — at the start of a round, you may spend 2 mana to enchant a suit of armor or a weapon within 1 meter of you (one enchantment per item; lasts until the end of the round):
 
 - **Weapon:** gains a new trait, or swaps one of its traits for a new one (*armor destroyer* cannot be given this way).
-- **Armor:** becomes immune to one damage tag: *fire, electric, frost, draining, condition inflicting, bleed* or *mana drain*.
+- **Armor:** becomes immune to one of: *fire*, *electric*, *frost*, *draining*, *mana drain*, *bleed* — or to **condition inflicting tags as a whole** (every tag that inflicts a condition).
 
 **2. Gift of the fire** — when you meditate, you may cast one of the following without spending mana, with the duration stretched to **24 hours**: *flaming weapon*, *lesser strength*, *enhance armor*, *enhance weapon*, *light*. Up to 2 such spells at a time — a third ends the oldest.
 
