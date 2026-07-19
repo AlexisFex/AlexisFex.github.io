@@ -2155,6 +2155,8 @@ You cannot cast the same spell twice on the same turn.
 
 Some abilities refer to spell levels by rank order. It's simple: **beginner** is the lowest; **advanced** is one rank above beginner; **master** is two above beginner and one above advanced; **legendary** is the highest — three above beginner, two above advanced, one above master.
 
+Stacking effect of the spells: You can't have more than one named effect. For example: You can't apply two Lesser Strength to a same creature.
+
 ## Races
 
 When you create your character, you must choose its race. A race does not give you major benefits — at most a minor combat perk, or a small boost to exploration and downtime. We recommend picking a race for its aesthetics, or because its concept truly connects with you (or, if you have no preference, whatever works best with your build).
@@ -4909,18 +4911,6 @@ A projection of magical armor wraps around you, or another creature within 5 met
 
 #### Condition negation spells
 
-##### Armored mind
-
-*Advanced · 5 mana · 1 move · 30 seconds (2 rounds)*
-
-You — or a creature within 1 meter of you — become immune to the **intimidated and taunted** conditions until the spell ends.
-
-##### Aura of freedom
-
-*Advanced · 8 mana · 4 moves · 2 minutes (8 rounds)*
-
-All creatures in a 10-meter aura around you gain **+2 to resist rolls** against the *restrained*, *weakened*, *poisoned* and *blinded* conditions.
-
 ##### Lesser protection
 
 *Beginner · 4 mana · 3 moves · 30 seconds (2 rounds)*
@@ -4933,17 +4923,29 @@ Choose a creature within 5 meters (yourself included): the first time it would b
 
 Choose a creature within 1 meter of you (or yourself): it gains **+1 to resist rolls**.
 
-##### Gentle embrace
+##### Armored mind
 
-*Master · 1 mana · 6 moves · instant*
+*Advanced · 5 mana · 1 move · 30 seconds (2 rounds)*
 
-When you finish casting, **all negative conditions** are removed from allies within 5 meters of you.
+You — or a creature within 1 meter of you — become immune to the **intimidated and taunted** conditions until the spell ends.
+
+##### Aura of freedom
+
+*Advanced · 8 mana · 4 moves · 2 minutes (8 rounds)*
+
+All creatures in a 10-meter aura around you gain **+2 to resist rolls** against the *restrained*, *weakened*, *poisoned* and *blinded* conditions.
 
 ##### Greater protection
 
 *Advanced · 7 mana · 4 moves · 2 minutes (8 rounds)*
 
 Choose a creature within 10 meters (yourself included). The first time the target would be inflicted with a negative condition while the spell is active, **every negative condition** affecting it is immediately cured — the triggering one included. Then the spell ends, and the target takes 1 damage.
+
+##### Gentle embrace
+
+*Master · 1 mana · 6 moves · instant*
+
+When you finish casting, **all negative conditions** are removed from allies within 5 meters of you.
 
 ##### Pure soul enlightenment
 
@@ -4952,6 +4954,12 @@ Choose a creature within 10 meters (yourself included). The first time the targe
 When you finish casting, choose one target **you know exists** — wherever it is. That target is immune to **all negative conditions** until the spell ends, and any condition inflicted on it before the cast immediately ends.
 
 #### Anti magic spells
+
+##### Lesser anti magic
+
+*Beginner · 5 mana · 2 moves · instant*
+
+You try to untangle the essence of a spell still affecting a creature or area within 1 meter of you. Roll a **casting check** against the spell's test score (beginner 1, advanced 2, master 3, legendary 4). On a success, the spell's maximum duration is **cut in half** — and if more than half has already passed, it is dispelled outright.
 
 ##### Anti magic aura
 
@@ -4983,21 +4991,9 @@ Your hands hold an almost impossible amount of anti-magic energy. For the durati
 
 A wave of anti-magic engulfs everything within **40 meters** of you: all spells affecting any creature, object or space in that radius are immediately dispelled.
 
-##### Lesser anti magic
-
-*Beginner · 5 mana · 2 moves · instant*
-
-You try to untangle the essence of a spell still affecting a creature or area within 1 meter of you. Roll a **casting check** against the spell's test score (beginner 1, advanced 2, master 3, legendary 4). On a success, the spell's maximum duration is **cut in half** — and if more than half has already passed, it is dispelled outright.
-
 ### Offense magic
 
 #### Elemental magic spells
-
-##### Avalanche
-
-*Advanced · 8 mana · 5 moves · instant*
-
-You conjure snow and ice and launch them in a line starting from your space — 9 meters wide, 4 meters high, 20 meters long. Each creature in the line makes a speed or power resist check, taking **7 frost damage**.
 
 ##### Breath of flames
 
@@ -5005,25 +5001,11 @@ You conjure snow and ice and launch them in a line starting from your space — 
 
 Fire shoots from your mouth in a straight line originating from you — 1 meter wide, 10 meters long. All creatures in the line are set aflame, taking **2 continual fire damage** for 1 minute.
 
-##### Call upon the eye of the sun
-
-*Legendary · 17 mana · 7 moves · 45 seconds (3 rounds)*
-
-You call forth the flame of the dead god from the sky, to burn away reality itself. You — and only you — are safe from the fire. Choose a 3×3 meter square within line of sight and 100 meters: a beam of pure destruction falls from the sky onto it. A creature that starts its turn in the area takes **15 fire damage that cannot be reduced**. 
-When a creature takes damage from this spell, it gains an **equal amount** of continual fire stacks, that can be removed only when you exit the radius
-
-
 ##### Dirt blade
 
 *Beginner · 2+ mana\* · 1+ move\* · 1 minute*
 
 The dirt around you rises into blades of metal and stone: for every move spent casting, you pay 2 mana — and every 2 mana forms one **dirt blade** around you. At the end of each round, choose a creature within 5 meters: it takes damage equal to your number of blades. The blades crumble after dealing damage **twice**.
-
-##### Dragon breath
-
-*Master · 7 mana · 3 moves · instant*
-
-You unleash a line of elemental fire, 3 meters wide and 50 meters long. Creatures caught in it make a speed resist roll, taking **11 fire damage and 5 continual fire damage** — and for every 2 successes rolled, the continual damage drops by 1.
 
 ##### Earth wave
 
@@ -5037,41 +5019,11 @@ A shockwave travels through the earth and erupts in a 5-meter cube within 30 met
 
 You wrap your fingers in electricity and attack a creature within 1 meter. On a hit, it takes damage equal to your successes — with the **electric** tag.
 
-##### Forge the weapon that strikes down titans
-
-*Legendary · 15 mana · 6 moves · 5 minutes (20 rounds)*
-
-You pull the strongest minerals from the ground into a 7-meter melee weapon of your choice, floating beside you. When you finish casting — and at the start of each of your turns — the weapon may strike a creature within 10 meters of you: **20 armor breaker damage**, and the target falls prone. Once per round, when an attack hits you, you may make the weapon its target instead. The weapon has 40 resilience, 5 evasion and −3 damage reduction; for every 2 resilience it loses, its damage drops by 1.
-
-##### Fire blast
-
-*Advanced · 6 mana · 3 moves · instant*
-
-You focus a sphere of flame and launch it towards a point you can see. The sphere travels **30 meters at the end of each of your turns**; reaching its destination, it explodes — all creatures within a 10-meter radius take **5 fire damage**.
-
-##### Flash freeze
-
-*Master · 14 mana · 4 moves · instant*
-
-Choose a creature within 50 meters and line of sight: it takes **10 frost damage**, cannot act until the start of the next round — and becomes **immune to all damage** for that time. If a single instance of damage would exceed 10 (checked before the immunity), the ice shatters and all effects end.
-
-##### Frost cloud
-
-*Advanced · 7 mana · 2 moves · 2 minutes (8 rounds)*
-
-You summon a sphere of snow and harsh winds: choose a point within 100 meters — a **20-meter sphere** of frost covers the area. Creatures starting their turn inside it take 1 frost damage.
-
 ##### Ice spike
 
 *Beginner · 2 mana · 1 move · instant*
 
 You conjure and launch a sharp shard of ice, attacking a target within 60 meters. The attack carries the **frost** tag.
-
-##### Invoke the power of the heavens, conjure eternal storms
-
-*Legendary · 23 mana · 12 moves · 10 minutes (40 rounds)*
-
-You summon a storm that covers the sky to the horizon — and you are always its center. Rain and thunder deafen everyone within a **2-kilometer radius**. At the end of each round, choose a creature under the clouded sky within 200 meters of you: lightning strikes it for **10 electric damage that cannot be reduced in any way**.
 
 ##### Lightning burst
 
@@ -5085,23 +5037,11 @@ You store electric energy within yourself, then release it in a violent burst: *
 
 Lightning launches at one creature within 30 meters: it makes a speed or endurance resist roll (its choice), taking **5 electric damage**.
 
-##### Lightning strike
+##### Avalanche
 
-*Advanced · 6 mana · 3 moves · instant*
+*Advanced · 8 mana · 5 moves · instant*
 
-When you finish casting, lightning strikes around you: all creatures **of your choice** within 10 meters take 4 electric damage.
-
-##### Pillar strike
-
-*Master · 7 mana · 5 moves · 10 minutes (40 rounds)*
-
-The earth around you forms a 3-meter pillar of stone and minerals. When you finish casting — and at the start of every round — the pillar strikes a creature within 5 meters of you for **10 damage**. The pillar has 10 resilience, 3 evasion and −2 damage reduction; every resilience it loses reduces its damage by 1.
-
-##### Plasma pulse
-
-*Master · 9+ mana\* · 2+ moves\* · instant*
-
-You gather energy in your hand before releasing a destructive beam. Each time you take a move to progress the cast, choose: keep charging, or fire. Every charging move beyond the minimum costs **+3 mana**. When the beam fires, creatures in a line 1 meter wide and 100 meters long take **9 electric damage** — then the air explodes, dealing 1 fire damage to creatures within 3 meters of the line. Every charging move adds **+2 electric and +1 fire damage**.
+You conjure snow and ice and launch them in a line starting from your space — 9 meters wide, 4 meters high, 20 meters long. Each creature in the line makes a speed or power resist check, taking **7 frost damage**.
 
 ##### Rainbow shot
 
@@ -5120,6 +5060,48 @@ The ground shakes and breaks in a 10-meter cube within line of sight and 50 mete
 *Advanced · 4 mana · 3 moves · 1 minute (4 rounds)*
 
 As you start casting, stones float and form a blade above you. When you finish — and at the end of every round — all creatures within a **2-meter radius** of you take **5 damage** and are knocked prone. The blade has 10 resilience, 1 evasion and −1 damage reduction; every 2 damage it takes reduces its damage by 1.
+
+##### Fire blast
+
+*Advanced · 6 mana · 3 moves · instant*
+
+You focus a sphere of flame and launch it towards a point you can see. The sphere travels **30 meters at the end of each of your turns**; reaching its destination, it explodes — all creatures within a 10-meter radius take **5 fire damage**.
+
+##### Frost cloud
+
+*Advanced · 7 mana · 2 moves · 2 minutes (8 rounds)*
+
+You summon a sphere of snow and harsh winds: choose a point within 100 meters — a **20-meter sphere** of frost covers the area. Creatures starting their turn inside it take 1 frost damage.
+
+##### Lightning strike
+
+*Advanced · 6 mana · 3 moves · instant*
+
+When you finish casting, lightning strikes around you: all creatures **of your choice** within 10 meters take 4 electric damage.
+
+##### Dragon breath
+
+*Master · 7 mana · 3 moves · instant*
+
+You unleash a line of elemental fire, 3 meters wide and 50 meters long. Creatures caught in it make a speed resist roll, taking **11 fire damage and 5 continual fire damage** — and for every 2 successes rolled, the continual damage drops by 1.
+
+##### Flash freeze
+
+*Master · 14 mana · 4 moves · instant*
+
+Choose a creature within 50 meters and line of sight: it takes **10 frost damage**, cannot act until the start of the next round — and becomes **immune to all damage** for that time. If a single instance of damage would exceed 10 (checked before the immunity), the ice shatters and all effects end.
+
+##### Pillar strike
+
+*Master · 7 mana · 5 moves · 10 minutes (40 rounds)*
+
+The earth around you forms a 3-meter pillar of stone and minerals. When you finish casting — and at the start of every round — the pillar strikes a creature within 5 meters of you for **10 damage**. The pillar has 10 resilience, 3 evasion and −2 damage reduction; every resilience it loses reduces its damage by 1.
+
+##### Plasma pulse
+
+*Master · 9+ mana\* · 2+ moves\* · instant*
+
+You gather energy in your hand before releasing a destructive beam. Each time you take a move to progress the cast, choose: keep charging, or fire. Every charging move beyond the minimum costs **+3 mana**. When the beam fires, creatures in a line 1 meter wide and 100 meters long take **9 electric damage** — then the air explodes, dealing 1 fire damage to creatures within 3 meters of the line. Every charging move adds **+2 electric and +1 fire damage**.
 
 ##### Storm wall
 
@@ -5144,6 +5126,25 @@ You detonate two explosions in rapid succession: first a burst of fire — **8 f
 *Legendary · 19 mana · 10 moves · instant\**
 
 From the moment you start casting, temperatures plummet towards absolute zero in a **100-meter radius**. Every move you take to complete the spell, all creatures in the radius take **2 frost damage that ignores unphased** — and the radius shrinks by 10 meters. From the 4th casting move onward, the damage rises to **4**; from the 8th — to **7**. When you finish casting, every creature except you within a **1-meter radius is killed**.
+
+##### Call upon the eye of the sun
+
+*Legendary · 17 mana · 7 moves · 45 seconds (3 rounds)*
+
+You call forth the flame of the dead god from the sky, to burn away reality itself. You — and only you — are safe from the fire. Choose a 3×3 meter square within line of sight and 100 meters: a beam of pure destruction falls from the sky onto it. A creature that starts its turn in the area takes **15 fire damage that cannot be reduced**. 
+When a creature takes damage from this spell, it gains an **equal amount** of continual fire stacks, that can be removed only when you exit the radius
+
+##### Forge the weapon that strikes down titans
+
+*Legendary · 15 mana · 6 moves · 5 minutes (20 rounds)*
+
+You pull the strongest minerals from the ground into a 7-meter melee weapon of your choice, floating beside you. When you finish casting — and at the start of each of your turns — the weapon may strike a creature within 10 meters of you: **20 armor breaker damage**, and the target falls prone. Once per round, when an attack hits you, you may make the weapon its target instead. The weapon has 40 resilience, 5 evasion and −3 damage reduction; for every 2 resilience it loses, its damage drops by 1.
+
+##### Invoke the power of the heavens, conjure eternal storms
+
+*Legendary · 23 mana · 12 moves · 10 minutes (40 rounds)*
+
+You summon a storm that covers the sky to the horizon — and you are always its center. Rain and thunder deafen everyone within a **2-kilometer radius**. At the end of each round, choose a creature under the clouded sky within 200 meters of you: lightning strikes it for **10 electric damage that cannot be reduced in any way**.
 
 #### Light magic spells
 
@@ -5177,6 +5178,12 @@ Choose a creature within 30 meters: it gains a **purity mark**. The first time i
 
 You radiate an aura of bright light, 40 meters in radius, centered on you. All creatures within the sphere as it forms are **blinded** — unless they used *change the scene* to cover their eyes before you finished casting.
 
+##### Sunlight strike
+
+*Advanced · 6 mana · 3 moves · instant\**
+
+As you start casting, designate a 15×15×15 meter cube within line of sight and 50 meters. When you finish, the area bursts in burning light: all creatures inside take **4 armor destroying damage** and are **blinded**. If the spell hits no one, you may recast it for 1 move and 3 mana.
+
 ##### Greater purity
 
 *Master · 11 mana · 2 moves · 10 minutes (40 rounds)*
@@ -5186,12 +5193,6 @@ You place an **execution mark** on a creature within 30 meters. Each time it tak
 - deal 2 damage per rank expended to the target and all creatures within **5 meters** of it (this option must expend **all** ranks on the target);
 - spend 2 ranks — inflict *weakened*, *blinded* or *restrained*;
 - spend 3 ranks — push the target 30 meters in a direction of your choice.
-
-##### Sunlight strike
-
-*Advanced · 6 mana · 3 moves · instant\**
-
-As you start casting, designate a 15×15×15 meter cube within line of sight and 50 meters. When you finish, the area bursts in burning light: all creatures inside take **4 armor destroying damage** and are **blinded**. If the spell hits no one, you may recast it for 1 move and 3 mana.
 
 ##### Sunrise
 
@@ -5213,29 +5214,29 @@ You emit an aura of holy power, 20 meters in radius. Enemies starting their turn
 
 #### Psychic magic spells
 
-##### Mind crusher
-
-*Legendary · 30 mana · 1 move · instant*
-
-You destroy the psyche of a creature within 5 meters and line of sight: it **cannot use mana for the next 24 hours**, loses **all of its unphased**, and falls prone.
-
 ##### Disturbing shot
 
 *Beginner · 3 mana · 2 moves · 15 seconds (1 round)*
 
 Make a ranged spell attack against a creature within 50 meters. On a hit, the target is **taunted** by you — and the next time it takes damage, that damage is increased by 1 and **ignores damage reduction**.
 
-##### Manifest nightmare
-
-*Master · 16 mana · 3 moves · 30 seconds (2 rounds)*
-
-You evoke fear and terror in a 30-meter aura around you. Creatures of your choice within it are **intimidated** by you for the duration and **cannot willingly move closer to you** — and a creature starting or ending its turn in the aura loses **3 unphased**.
-
 ##### Mental block
 
 *Beginner · 2 mana · 1 move · 15 seconds (1 round)*
 
 You inject despair into the mind of a creature in your line of sight: it **cannot regain unphased** until the spell ends.
+
+##### Psychic arrow
+
+*Beginner · 4 mana · 1 move · instant*
+
+You shoot an invisible arrow of psychic energy at a creature within 40 meters: **3 damage, ignoring damage reduction** — but the arrow can only harm the target's **unphased**, never its resilience.
+
+##### Tear down the mind
+
+*Advanced · 7 mana · 3 moves · instant*
+
+Choose a creature as you start casting: **every move you spend** on this cast, the target loses 1 unphased. When you finish, it is **intimidated** by you for the next minute — and if it is **heavily wounded** at that moment, it is intimidated by **all creatures** for 1 minute instead.
 
 ##### Nightmare barrage
 
@@ -5249,11 +5250,11 @@ A translucent bolt of pain pierces the minds of up to **5 creatures** within 100
 
 A burst of psychic energy engulfs everything within 10 meters of you: each creature of your choice takes 1 damage, is **intimidated** (test score 1 to remove) and **weakened** until the end of the next round.
 
-##### Psychic arrow
+##### Manifest nightmare
 
-*Beginner · 4 mana · 1 move · instant*
+*Master · 16 mana · 3 moves · 30 seconds (2 rounds)*
 
-You shoot an invisible arrow of psychic energy at a creature within 40 meters: **3 damage, ignoring damage reduction** — but the arrow can only harm the target's **unphased**, never its resilience.
+You evoke fear and terror in a 30-meter aura around you. Creatures of your choice within it are **intimidated** by you for the duration and **cannot willingly move closer to you** — and a creature starting or ending its turn in the aura loses **3 unphased**.
 
 ##### Post traumatic stress disorder
 
@@ -5268,19 +5269,19 @@ Choose a **heavily wounded** creature — and make it relive its worst moment of
 
 If the creature rolls not even 1 success, it passes out from shock — **knocked out**.
 
-##### Tear down the mind
+##### Mind crusher
 
-*Advanced · 7 mana · 3 moves · instant*
+*Legendary · 30 mana · 1 move · instant*
 
-Choose a creature as you start casting: **every move you spend** on this cast, the target loses 1 unphased. When you finish, it is **intimidated** by you for the next minute — and if it is **heavily wounded** at that moment, it is intimidated by **all creatures** for 1 minute instead.
+You destroy the psyche of a creature within 5 meters and line of sight: it **cannot use mana for the next 24 hours**, loses **all of its unphased**, and falls prone.
 
 #### Gravity magic spells
 
-##### Gravity fissure
+##### Gravity surge
 
-*Legendary · 15 mana · 4 moves · instant*
+*Beginner · 5 mana · 2 moves · 30 seconds (2 rounds)*
 
-You tear a hole in the fabric of reality. Choose a point you can see within 200 meters: a rift opens, and all creatures and objects within 50 meters of it are pulled **30 meters closer**. A creature that collides with a solid object or another creature takes 2 damage (ignoring damage reduction) — per collision. Then the rift **explodes**, rending space in a 15-meter radius: all creatures of your choice inside take **15 damage, ignoring damage reduction, dealt straight to resilience**. A creature killed by the explosion **disintegrates**.
+You increase gravity in a 10-meter radius around you: all creatures inside — **you included** — count as **restrained** while in the radius. A creature starting its turn under the spell's effect loses **2 resilience**.
 
 ##### Gravity push
 
@@ -5294,29 +5295,23 @@ Choose one target up to **size 6** within 15 meters, and push it up to 10 meters
 
 You gain **+15 movement** until the end of the round — and all creatures within 10 meters of you lose 10 from their current movement until the round ends, taking 1 damage that **ignores unphased**. When the next round starts, you may pay **3 mana** to recast this spell without spending a move.
 
-##### Gravity surge
-
-*Beginner · 5 mana · 2 moves · 30 seconds (2 rounds)*
-
-You increase gravity in a 10-meter radius around you: all creatures inside — **you included** — count as **restrained** while in the radius. A creature starting its turn under the spell's effect loses **2 resilience**.
-
 ##### Heavy center point
 
 *Advanced · 6 mana · 4 moves · instant*
 
 You increase the weight of a touched creature's internal organs — then instantly return them to normal. The creature loses **8 resilience**.
 
-##### Meteor strike
-
-*Master · 10 mana · 24 moves · instant*
-
-When you finish casting, a meteor falls from the sky. Choose a point of impact within 500 meters and line of sight: creatures within 10 meters of it take **25 damage**; creatures between 11 and 50 meters take **10 damage** — and every object and building in the meteor's path, or within 50 meters of the impact, is **destroyed**.
-
 ##### Linear erasure point
 
 *Advanced · 7 mana · 3 moves · instant*
 
 You hurl a ball of almost absolute gravity, drawing a straight line 5 meters wide and 50 meters long: each creature in it loses **3 resilience** and is pushed to one side of the line (the creature's choice).
+
+##### Meteor strike
+
+*Master · 10 mana · 24 moves · instant*
+
+When you finish casting, a meteor falls from the sky. Choose a point of impact within 500 meters and line of sight: creatures within 10 meters of it take **25 damage**; creatures between 11 and 50 meters take **10 damage** — and every object and building in the meteor's path, or within 50 meters of the impact, is **destroyed**.
 
 ##### Push / pull
 
@@ -5336,15 +5331,27 @@ You multiply the gravity of one creature or object within 50 meters and line of 
 
 You raise the pressure in the air and pull everything towards yourself: when you finish casting, every creature and object **not connected to the ground** is dragged **100 meters closer** to you. When the spell ends, the pressure lifts at once — all creatures within 30 meters of you are **knocked out** until the end of the next round, struck by G-shock.
 
+##### Gravity fissure
+
+*Legendary · 15 mana · 4 moves · instant*
+
+You tear a hole in the fabric of reality. Choose a point you can see within 200 meters: a rift opens, and all creatures and objects within 50 meters of it are pulled **30 meters closer**. A creature that collides with a solid object or another creature takes 2 damage (ignoring damage reduction) — per collision. Then the rift **explodes**, rending space in a 15-meter radius: all creatures of your choice inside take **15 damage, ignoring damage reduction, dealt straight to resilience**. A creature killed by the explosion **disintegrates**.
+
 ### Control magic
 
 #### Illusion spells
 
-##### Ephemeral copy
+##### Phantom sounds
 
-*Master · mana cost: the target's talent point total · 4 moves · 1 hour*
+*Beginner · 1 mana · 1 move · instant*
 
-You create a 1-to-1 copy of a creature in your line of sight — same attributes, stats and permanent equipment. The copy looks, sounds and **feels** exactly like the original, and obeys your every command — but it cannot attack, use talents, or cast any spell the original knew. The moment the copy takes damage, it vanishes.
+You create an illusory voice or sound echoing from a point within 50 meters — audible in a radius of your choice, from 1 to 100 meters.
+
+##### Static mirage
+
+*Beginner · 2 mana · 1 move · 30 minutes (120 rounds)*
+
+You create a motionless, silent image covering up to 5 square meters, appearing as anything you want. It is not physically there: no impeding movement, no solid cover — but it blocks line of sight and works as **abstract cover**. A creature with a **d10 or above in intellect** sees through it automatically; anyone else may spend a move on an intellect check — **2 or more successes** reveal it.
 
 ##### False voice
 
@@ -5358,14 +5365,6 @@ You enchant your voice, changing its tune and pitch — able to mimic **any soun
 
 You create an illusion that moves, acts and copies sounds — up to size 5 in any direction, appearing as anything you want. It is not physically there: it cannot impede movement or serve as solid cover (but blocks line of sight and works as **abstract cover**). You may command it to move at the end of each of your turns. A creature with a **d12 in intellect** sees through it automatically; anyone else may spend a move on an intellect check — **3 or more successes** reveal the illusion.
 
-##### Land of illusion
-
-*Legendary · 2 mana every round the spell is active · 1 move · 1 round(special)*
-
-You unleash the ultimate fabrication of reality around you. You can fully manifest and construct anything in a 2km  radius around you. The constructs make sound, can move perfectly according to pre-set commands that can be changed at any moment, and are completely intangible.
-A creature can pass through these illusions with no resistance, and can conclude they are not real as a result, but cannot roll to determine if the illusion is real.
-Your illusions cannot physically interact with anything, and at the end of every round, you may expend **1 move** to extend the spell’s duration by **1 round**(15 seconds).
-
 
 ##### Partial invisibility
 
@@ -5373,17 +5372,19 @@ Your illusions cannot physically interact with anything, and at the end of every
 
 Choose one side of yourself — front, back, left or right: you become transparent when viewed from that direction, and creatures standing there cannot target you with any effect requiring line of sight.
 
-##### Phantom sounds
+##### Ephemeral copy
 
-*Beginner · 1 mana · 1 move · instant*
+*Master · mana cost: the target's talent point total · 4 moves · 1 hour*
 
-You create an illusory voice or sound echoing from a point within 50 meters — audible in a radius of your choice, from 1 to 100 meters.
+You create a 1-to-1 copy of a creature in your line of sight — same attributes, stats and permanent equipment. The copy looks, sounds and **feels** exactly like the original, and obeys your every command — but it cannot attack, use talents, or cast any spell the original knew. The moment the copy takes damage, it vanishes.
 
-##### Static mirage
+##### Land of illusion
 
-*Beginner · 2 mana · 1 move · 30 minutes (120 rounds)*
+*Legendary · 2 mana every round the spell is active · 1 move · 1 round(special)*
 
-You create a motionless, silent image covering up to 5 square meters, appearing as anything you want. It is not physically there: no impeding movement, no solid cover — but it blocks line of sight and works as **abstract cover**. A creature with a **d10 or above in intellect** sees through it automatically; anyone else may spend a move on an intellect check — **2 or more successes** reveal it.
+You unleash the ultimate fabrication of reality around you. You can fully manifest and construct anything in a 2km  radius around you. The constructs make sound, can move perfectly according to pre-set commands that can be changed at any moment, and are completely intangible.
+A creature can pass through these illusions with no resistance, and can conclude they are not real as a result, but cannot roll to determine if the illusion is real.
+Your illusions cannot physically interact with anything, and at the end of every round, you may expend **1 move** to extend the spell’s duration by **1 round**(15 seconds).
 
 #### Terrain manipulation spells
 
@@ -5398,12 +5399,6 @@ You collapse the ceiling over a 5-meter area in your line of sight. Creatures in
 *Beginner · 2 mana · 2 moves · 2 minutes (8 rounds)*
 
 Choose a point on the floor within 20 meters: a 5×5 meter square is covered in a thin sheet of ice. Crossing the square costs an additional **5 meters of movement** — and if that extra cost reduces a creature's movement to 0, it falls **prone**.
-
-##### Eternal fog
-
-*Legendary · 9 mana · 2 moves · 10 minutes (40 rounds)*
-
-A 100-meter radius around you sinks into fog and dark mist, granting **abstract cover to all allies**. You are always the center of the fog.
 
 ##### Field of flowers
 
@@ -5431,7 +5426,6 @@ You calm the mana in a small area around you. Choose one of the following:
 **Remove** any **harsh / dangerous** terrain in a 5 meter radius around you,
 For the next minute, no harsh terrain can be created in a 10 meter radius around you, and any ability that creates such terrain has **no effect** on creatures in the area.
 
-
 ##### Rapid growth
 
 *Advanced · 5 mana · 2 moves · 5 minutes (20 rounds)*
@@ -5450,25 +5444,25 @@ You summon the apparition of a great warrior to bar your enemies' path. Create a
 
 Choose a point within 20 meters and line of sight: a 15-meter radius turns filthy, covered in muddy water — **harsh terrain**. Creatures ending their turn in it become **poisoned** (affecting power and speed) — and this poison can only be cleared by **leaving the swamp**.
 
-##### Summoning of the first forest
-
-*Legendary · 8 mana · 3 moves · 1 week*
-
-All buildings in a 50-meter radius around you are **destroyed** as trees and foliage grow instantly in their place. Creatures you consider allies move through the forest freely; for everyone else it is **dangerous terrain** — and ending a turn in it means becoming **restrained** (test score equal to the creature's size).
-
 ##### World tree sapling
 
 *Master · 6 mana · 2 moves · instant*
 
 You summon a fragment of the world tree to aid your allies: **all harsh terrain, dangerous terrain and abstract cover** within 30 meters of you is removed.
 
+##### Summoning of the first forest
+
+*Legendary · 8 mana · 3 moves · 1 week*
+
+All buildings in a 50-meter radius around you are **destroyed** as trees and foliage grow instantly in their place. Creatures you consider allies move through the forest freely; for everyone else it is **dangerous terrain** — and ending a turn in it means becoming **restrained** (test score equal to the creature's size).
+
+##### Eternal fog
+
+*Legendary · 9 mana · 2 moves · 10 minutes (40 rounds)*
+
+A 100-meter radius around you sinks into fog and dark mist, granting **abstract cover to all allies**. You are always the center of the fog.
+
 #### Negative condition infliction spells
-
-##### Creeping vines
-
-*Advanced · 7 mana · 2+ moves · instant*
-
-When you start casting this spell, choose a target you can see within 15 meters of you. When you finish casting the spell, the target is **restrained** and **prone**. For every **move** you take to continue / finish the spell while the target is within 15 meters of you, the test score to escape the restraints is **increased by 1**.
 
 ##### Despair
 
@@ -5481,26 +5475,17 @@ You attempt to intimidate a creature within 10 meters and line of sight: roll yo
 *Beginner · 1 mana · 3 moves · instant*
 One creature within 15 meters of you becomes **restrained** by vines — until it succeeds on a power resist roll (test score 1).
 
-
 ##### Lesser blight
 
 *Beginner · 2 mana · 2 moves · 30 seconds (2 rounds)*
 
 A creature within line of sight and 20 meters becomes **weakened** for the spell's duration.
 
-##### Nature's wrath
+##### Creeping vines
 
-*Master · 15 mana · 3 moves · instant*
+*Advanced · 7 mana · 2+ moves · instant*
 
-choose a creature standing on the ground within 20m of you. Roots and gravel start suffocating them immediately.
-The creature is **knocked prone, restrained**(test score of 4 to escape) and **blinded**.
-
-##### Oblivion
-
-*Legendary · 21 mana · 4 moves · 15 seconds (1 round)*
-
-Every round, the first time you take a move to continue / finish this spell, choose one creature.
-When you finish casting the spell, every creature within a 100-meter radius that wasn’t chosen becomes **Ashen** for the spell's duration.
+When you start casting this spell, choose a target you can see within 15 meters of you. When you finish casting the spell, the target is **restrained** and **prone**. For every **move** you take to continue / finish the spell while the target is within 15 meters of you, the test score to escape the restraints is **increased by 1**.
 
 ##### Stinging pain
 
@@ -5527,6 +5512,13 @@ Miasma fills the air: all creatures within 30 meters of you become **weakened** 
 
 You emit a roar that shakes the hearts of your enemies: every creature that can hear you makes a willpower resist roll — those affected are **intimidated for 8 rounds, minus 1 round per success** they rolled.
 
+##### Nature's wrath
+
+*Master · 15 mana · 3 moves · instant*
+
+choose a creature standing on the ground within 20m of you. Roots and gravel start suffocating them immediately.
+The creature is **knocked prone, restrained**(test score of 4 to escape) and **blinded**.
+
 ##### Winds of despair
 
 *Master · 14 mana · 4 moves · 2 minutes (8 rounds)*
@@ -5534,16 +5526,16 @@ You emit a roar that shakes the hearts of your enemies: every creature that can 
 You conjure dark and foreboding energy around up to 3 creatures within line of sight. Those creatures start feeling they know for certain they will die in the near future, and start having visions of their imminent demise.
 Those creatures are **weakened** and **intimidated** for the duration of the spell, and can only lose these effects early if they **become** heavily wounded or Ashen during the spell's duration.
 
+##### Oblivion
+
+*Legendary · 21 mana · 4 moves · 15 seconds (1 round)*
+
+Every round, the first time you take a move to continue / finish this spell, choose one creature.
+When you finish casting the spell, every creature within a 100-meter radius that wasn’t chosen becomes **Ashen** for the spell's duration.
 
 ### Support magic
 
 #### Equipment enhancement spells
-
-##### Cursed weapon
-
-*Advanced · 5 mana · 3 moves · 1 minute (4 rounds)*
-
-You shroud a weapon you can see in dark energy: it gains the **draining** and **weakened inflicting** damage tags. The weakened condition lasts until the end of the target's turn.
 
 ##### Enhance armor
 
@@ -5563,17 +5555,17 @@ Choose a weapon you can see: its quality is raised to **pristine** for the durat
 
 You touch a weapon and wreath it in fire: it gains the **fire** damage tag for the duration.
 
-##### Magus forge
-
-*Master · 7 mana · 12 moves · 24 hours*
-
-When you finish casting, you may create up to **3 pristine quality** melee weapons, ranged weapons, ammunition sets or suits of armor. When the spell ends, everything it created disappears.
-
 ##### Phoenix eye
 
 *Beginner · 4 mana · 1 move · 30 seconds (2 rounds)*
 
 You enchant a ranged weapon so it never misses: its next attack treats the target's **base evasion as 2 lower**.
+
+##### Cursed weapon
+
+*Advanced · 5 mana · 3 moves · 1 minute (4 rounds)*
+
+You shroud a weapon you can see in dark energy: it gains the **draining** and **weakened inflicting** damage tags. The weakened condition lasts until the end of the target's turn.
 
 ##### Upgrade
 
@@ -5587,43 +5579,13 @@ Choose one piece of equipment: its quality rises by **one level** (up to masterc
 
 You touch a weapon, imbuing it with primal energy: it gains the **electric** and **frost** damage tags.
 
+##### Magus forge
+
+*Master · 7 mana · 12 moves · 24 hours*
+
+When you finish casting, you may create up to **3 pristine quality** melee weapons, ranged weapons, ammunition sets or suits of armor. When the spell ends, everything it created disappears.
+
 #### Healing spells
-
-##### Aura of grit
-
-*Legendary · 16 mana · 7 moves · instant*
-
-All creatures of your choice within a **40-meter radius** gain **20 temporary unphased**.
-
-##### Aura of health
-
-*Advanced · 8 mana · 6 moves · 1 minute (4 rounds)*
-
-At the start of each round, every creature within 5 meters of you regains **2 resilience**.
-
-##### Greater aura of health
-
-*Master · 13 mana · 5 moves · 30 seconds (2 rounds)*
-
-At the end of each round, all creatures within a 10-meter radius of your choice regain **5 resilience**.
-
-##### Greater grit
-
-*Advanced · 7 mana · 5 moves · instant*
-
-A creature of your choice regains up to **half its maximum unphased** (rounded up).
-
-##### Greater heal
-
-*Advanced · 9 mana · 4 moves · 15 seconds (1 round)*
-
-Choose a creature within 1 meter (yourself included) and roll your casting attribute: it regains **1 resilience per success** — and regains the same amount again at the start **and** end of the next round.
-
-##### Greater regeneration
-
-*Master · 14 mana · 1 move · 2 minutes (8 rounds)*
-
-Choose a creature within 1 meter (or yourself): it regains **2 resilience at the start of each round**.
 
 ##### Lesser grit
 
@@ -5643,6 +5605,42 @@ Choose a creature within 1 meter (yourself included) and roll your casting attri
 
 Choose a visible creature within 30 meters (yourself included): whenever it starts its turn without having been hit since the end of its last one, it regains **1 resilience**.
 
+##### Rescue beam
+
+*Advanced · 7 mana · 1 move · 1 minute (4 rounds)*
+
+When you cast this spell, choose an ally within 60 meters and line of sight: you heal them **1 resilience** at the start of each round, as long as they stay in your line of sight. When you cast this spell — and as a move on your turn — you may pull them **30 meters** in your direction.
+
+##### Aura of health
+
+*Advanced · 8 mana · 6 moves · 1 minute (4 rounds)*
+
+At the start of each round, every creature within 5 meters of you regains **2 resilience**.
+
+##### Greater grit
+
+*Advanced · 7 mana · 5 moves · instant*
+
+A creature of your choice regains up to **half its maximum unphased** (rounded up).
+
+##### Greater heal
+
+*Advanced · 9 mana · 4 moves · 15 seconds (1 round)*
+
+Choose a creature within 1 meter (yourself included) and roll your casting attribute: it regains **1 resilience per success** — and regains the same amount again at the start **and** end of the next round.
+
+##### Greater aura of health
+
+*Master · 13 mana · 5 moves · 30 seconds (2 rounds)*
+
+At the end of each round, all creatures within a 10-meter radius of your choice regain **5 resilience**.
+
+##### Greater regeneration
+
+*Master · 14 mana · 1 move · 2 minutes (8 rounds)*
+
+Choose a creature within 1 meter (or yourself): it regains **2 resilience at the start of each round**.
+
 ##### Ultimate grit
 
 *Master · 12 mana · 4 moves · instant*
@@ -5655,12 +5653,11 @@ Choose one creature within 10 meters (or yourself): at the start of the next rou
 
 Choose a creature in your line of sight (or yourself): it regains **all of its resilience**. If it is weakened from returning out of the **Ashen** state, that condition ends — and its **Ashen exit count resets to 0**.
 
-##### Rescue beam
+##### Aura of grit
 
-*Advanced · 7 mana · 1 move · 1 minute (4 rounds)*
+*Legendary · 16 mana · 7 moves · instant*
 
-When you cast this spell, choose an ally within 60 meters and line of sight: you heal them **1 resilience** at the start of each round, as long as they stay in your line of sight. When you cast this spell — and as a move on your turn — you may pull them **30 meters** in your direction.
-
+All creatures of your choice within a **40-meter radius** gain **20 temporary unphased**.
 
 #### Mobility spells
 
@@ -5669,24 +5666,6 @@ When you cast this spell, choose an ally within 60 meters and line of sight: you
 *Beginner · 5 mana · 3 moves · 1 minute (4 rounds)*
 
 When a round starts, all creatures within 5 meters of you may **stride for free**.
-
-##### Breakthrough
-
-*Advanced · 4 mana · 1 move · instant*
-
-You immediately move up to **50 meters**, passing through solid objects and creatures. You cannot end the movement inside another creature's space or a solid object.
-
-##### Greater aura of speed
-
-*Master · 8 mana · 3 moves · 30 seconds (2 rounds)*
-
-When you finish casting — and whenever a round starts — allies within 2 meters of you may **stride twice** without spending a move.
-
-##### Instant transmission
-
-*Legendary · 12 mana · 1 move · instant*
-
-You push your body beyond its limits: move up to **500 meters**. If the movement ends in the air, you take no falling damage.
 
 ##### Mana dash
 
@@ -5700,17 +5679,23 @@ You rush forward up to **20 meters** in a straight line of your choice.
 
 You immediately **fly up to 25 meters**.
 
-##### Mana wings
-
-*Advanced · 5 mana · 4 moves · 10 minutes (40 rounds)*
-
-Choose a creature within 1 meter of you: it gains the **ability to fly** for the duration.
-
 ##### Passage
 
 *Beginner · 1 mana · 1 move · 1 minute (4 rounds)*
 
 You become **immune to the effects of harsh and dangerous terrain** for the duration.
+
+##### Breakthrough
+
+*Advanced · 4 mana · 1 move · instant*
+
+You immediately move up to **50 meters**, passing through solid objects and creatures. You cannot end the movement inside another creature's space or a solid object.
+
+##### Mana wings
+
+*Advanced · 5 mana · 4 moves · 10 minutes (40 rounds)*
+
+Choose a creature within 1 meter of you: it gains the **ability to fly** for the duration.
 
 ##### Pathway
 
@@ -5718,37 +5703,19 @@ You become **immune to the effects of harsh and dangerous terrain** for the dura
 
 You gain the ability to **fly** — and to move **through walls and solid objects** when you stride. If the duration ends while you are still inside an object, you are shot out to the nearest empty space — and become **Ashen**.
 
+##### Greater aura of speed
+
+*Master · 8 mana · 3 moves · 30 seconds (2 rounds)*
+
+When you finish casting — and whenever a round starts — allies within 2 meters of you may **stride twice** without spending a move.
+
+##### Instant transmission
+
+*Legendary · 12 mana · 1 move · instant*
+
+You push your body beyond its limits: move up to **500 meters**. If the movement ends in the air, you take no falling damage.
+
 #### Attribute enhancement spells
-
-##### Greater wit
-
-*Advanced · 8 mana · 3 moves · 5 minutes (20 rounds)*
-
-Choose a creature within 15 meters (yourself included): it gains **+1d8 to all sense, willpower and intellect checks**.
-
-##### Greater physique
-
-*Advanced · 7 mana · 3 moves · 30 seconds (2 rounds)*
-
-Choose a creature within 15 meters (yourself included): it gains **+2d6 to both speed and power rolls**.
-
-##### Greater splendor
-
-*Advanced · 5 mana · 3 moves · 10 minutes (40 rounds)*
-
-Choose a creature within 15 meters (yourself included): it gains **+2d8 to all charisma rolls** (other than spell rolls).
-
-##### Greater stamina
-
-*Advanced · 6 mana · 4 moves · 1 hour (240 rounds)*
-
-Choose a creature within 15 meters (yourself included): it gains **+1d12 to all endurance rolls**, and its travel time at full speed grows by **1 hour**.
-
-##### Increased reflexes
-
-*Advanced · 6 mana · 2 moves · 1 minute (4 rounds)*
-
-Choose a creature within 10 meters: it gains **+1 evasion**.
 
 ##### Lesser dexterity
 
@@ -5780,6 +5747,36 @@ Choose a creature within 15 meters (yourself included): it gains **+1d10 to char
 
 Choose a creature within 15 meters (yourself included): it gains **+1d8 to all endurance rolls and resist rolls**.
 
+##### Greater wit
+
+*Advanced · 8 mana · 3 moves · 5 minutes (20 rounds)*
+
+Choose a creature within 15 meters (yourself included): it gains **+1d8 to all sense, willpower and intellect checks**.
+
+##### Greater physique
+
+*Advanced · 7 mana · 3 moves · 30 seconds (2 rounds)*
+
+Choose a creature within 15 meters (yourself included): it gains **+2d6 to both speed and power rolls**.
+
+##### Greater splendor
+
+*Advanced · 5 mana · 3 moves · 10 minutes (40 rounds)*
+
+Choose a creature within 15 meters (yourself included): it gains **+2d8 to all charisma rolls** (other than spell rolls).
+
+##### Greater stamina
+
+*Advanced · 6 mana · 4 moves · 1 hour (240 rounds)*
+
+Choose a creature within 15 meters (yourself included): it gains **+1d12 to all endurance rolls**, and its travel time at full speed grows by **1 hour**.
+
+##### Increased reflexes
+
+*Advanced · 6 mana · 2 moves · 1 minute (4 rounds)*
+
+Choose a creature within 10 meters: it gains **+1 evasion**.
+
 ##### Perfect body
 
 *Master · 13 mana · 6 moves · 1 hour (240 rounds)*
@@ -5801,40 +5798,6 @@ All summons disappear when their resilience reaches 0, or when the spell that su
 - Summons do not have turns of their own, even when they act after you: your turn's start is the start of all your summons' turns, and when your summons finish acting, your turn ends.
 
 #### Demon summoning spells
-
-##### Hellraiser's call
-
-*Master · 12 mana · 3 moves · instant*
-
-You summon **3 disgraced warriors, 2 skulls and 1 devastator**. They all die at the end of the current round.
-
-##### Summon annihilator
-
-*Legendary · 19 mana · 6 moves · special*
-
-You summon a **size 5** creature of pure destruction, lingering in this realm for as long as the blood flows.
-
-- *Stats:* resilience 8, evasion 6, unphased 1, movement 45 m, mana 54.
-- *Attributes:* power 7d12, speed 5d10, endurance 2d8, willpower 1d4, intellect 4d10, charisma 6d12, sense 3d6.
-- *Traits:* **Destructive aura** — no creature within 20 meters (the annihilator included) can benefit from damage reduction. **Rampage** — when the annihilator kills a creature, it regains one move. **Anti drain** — immune to *mana drain* and the *holy* weapon enchantment.
-- *Attacks:* **Claws of doom** (medium reach): 7d12+2d8 — *brutal, poison inflicting, bladed*. Always uses the *savage brawl* technique when more than 1 creature is in reach.
-- *Spells:* fire blast, dragon breath, mind crusher, manifest nightmare, ultimate age of desolation.
-
-The annihilator makes **4 moves** each round, acting directly after you. If its turn ends without making a creature heavily wounded or killing one — it returns to its prison in the furthest parts of hell.
-
-##### Summon devastator
-
-*Advanced · 11 mana · 4 moves · 10 minutes (40 rounds)*
-
-You call forth a **size 2** demon from the depths of its prison.
-
-- *Stats:* resilience 7, evasion 1, damage reduction −1, unphased 0, movement 15 m, mana 10.
-- *Attributes:* power 2d10, speed 1d8, endurance 2d8, willpower 1d6, intellect 1d4, charisma 1d12, sense 3d6.
-- *Traits:* **Focused** — suffers no downsides from being heavily wounded. **Anti drain** — immune to *mana drain* and the *holy* enchantment.
-- *Attacks:* **Destructive strike** (medium reach): 3d10 — *brutal, armor breaker, forceful*.
-- *Spells:* mana dash, gravity rush, lightning burst, fire blast, flaming weapon.
-
-The devastator makes **2 moves** each round, strides once per turn for free, and acts directly after you.
 
 ##### Summon disgraced warrior
 
@@ -5864,6 +5827,20 @@ You summon a **size 1** floating skull full of negative energy.
 
 The skull makes **2 moves** each round, acting directly after you.
 
+##### Summon devastator
+
+*Advanced · 11 mana · 4 moves · 10 minutes (40 rounds)*
+
+You call forth a **size 2** demon from the depths of its prison.
+
+- *Stats:* resilience 7, evasion 1, damage reduction −1, unphased 0, movement 15 m, mana 10.
+- *Attributes:* power 2d10, speed 1d8, endurance 2d8, willpower 1d6, intellect 1d4, charisma 1d12, sense 3d6.
+- *Traits:* **Focused** — suffers no downsides from being heavily wounded. **Anti drain** — immune to *mana drain* and the *holy* enchantment.
+- *Attacks:* **Destructive strike** (medium reach): 3d10 — *brutal, armor breaker, forceful*.
+- *Spells:* mana dash, gravity rush, lightning burst, fire blast, flaming weapon.
+
+The devastator makes **2 moves** each round, strides once per turn for free, and acts directly after you.
+
 ##### Summon war
 
 *Master · 13 mana · 3 moves · 5 minutes (20 rounds)*
@@ -5877,21 +5854,27 @@ You summon a **size 4** spirit of war.
 
 The spirit of war **listens to no one** — not even you. It is immune to being intimidated, restrained or weakened, and always knows where the closest creature is. It makes **4 moves** each round and may repeat the same hostile move.
 
+##### Hellraiser's call
+
+*Master · 12 mana · 3 moves · instant*
+
+You summon **3 disgraced warriors, 2 skulls and 1 devastator**. They all die at the end of the current round.
+
+##### Summon annihilator
+
+*Legendary · 19 mana · 6 moves · special*
+
+You summon a **size 5** creature of pure destruction, lingering in this realm for as long as the blood flows.
+
+- *Stats:* resilience 8, evasion 6, unphased 1, movement 45 m, mana 54.
+- *Attributes:* power 7d12, speed 5d10, endurance 2d8, willpower 1d4, intellect 4d10, charisma 6d12, sense 3d6.
+- *Traits:* **Destructive aura** — no creature within 20 meters (the annihilator included) can benefit from damage reduction. **Rampage** — when the annihilator kills a creature, it regains one move. **Anti drain** — immune to *mana drain* and the *holy* weapon enchantment.
+- *Attacks:* **Claws of doom** (medium reach): 7d12+2d8 — *brutal, poison inflicting, bladed*. Always uses the *savage brawl* technique when more than 1 creature is in reach.
+- *Spells:* fire blast, dragon breath, mind crusher, manifest nightmare, ultimate age of desolation.
+
+The annihilator makes **4 moves** each round, acting directly after you. If its turn ends without making a creature heavily wounded or killing one — it returns to its prison in the furthest parts of hell.
+
 #### Spirit summoning spells
-
-##### Summon Earth Spirit
-
-*Advanced · 8 mana · 6 moves · 1 hour (240 rounds)*
-
-You summon a guardian spirit of earth and obsidian to shield you and your allies.
-
-- *Stats:* size 4, resilience 20, evasion 1, damage reduction −3, unphased 2, movement 10 m, mana 6.
-- *Attributes:* power 3d8, speed 1d4, endurance 4d10, willpower 1d12, intellect/sense/charisma 1d6.
-- *Abilities:* **Obsidian body** — the spirit's damage reduction cannot be ignored. **Bastion** — may guard against attacks targeting adjacent allies, becoming the attack's target.
-- *Attacks:* **Seismic slam** (short reach, *brutal, armor breaker*): 3d8, with the **earthcrusher** enchantment.
-- *Spells:* Spell ward, greater revenge
-
-The spirit makes **2 moves** each turn, acts immediately after you — and you command it mentally, for free, at the end of your turn.
 
 ##### Summon Lesser Fey
 
@@ -5920,6 +5903,20 @@ You call on rock and stone to summon a durable earth spirit.
 
 The spirit makes **2 moves** each turn, acts immediately after you — you command it mentally, for free, at the end of your turn.
 
+##### Summon Earth Spirit
+
+*Advanced · 8 mana · 6 moves · 1 hour (240 rounds)*
+
+You summon a guardian spirit of earth and obsidian to shield you and your allies.
+
+- *Stats:* size 4, resilience 20, evasion 1, damage reduction −3, unphased 2, movement 10 m, mana 6.
+- *Attributes:* power 3d8, speed 1d4, endurance 4d10, willpower 1d12, intellect/sense/charisma 1d6.
+- *Abilities:* **Obsidian body** — the spirit's damage reduction cannot be ignored. **Bastion** — may guard against attacks targeting adjacent allies, becoming the attack's target.
+- *Attacks:* **Seismic slam** (short reach, *brutal, armor breaker*): 3d8, with the **earthcrusher** enchantment.
+- *Spells:* Spell ward, greater revenge
+
+The spirit makes **2 moves** each turn, acts immediately after you — and you command it mentally, for free, at the end of your turn.
+
 ##### Summon little helper
 
 *Advanced · 9 mana · 2 moves · 10 minutes (40 rounds)*
@@ -5942,6 +5939,18 @@ You summon a guardian spirit that acts as a safe harbor to your allies during co
 
 The messenger makes **3 moves** each turn, and acts directly after you.
 
+##### Summon Watcher
+*Master · 14 mana · 6 moves · 10 minutes (40 rounds)*
+
+You summon a guardian spirit that acts as a safe harbor to your allies during combat.
+- *Stats:* size 5, resilience 15, evasion 1, damage reduction −2, unphased 6, movement 0 m, mana 10.
+- *Attributes:* power 3d8, speed 1d4, endurance 3d12, willpower 2d8, intellect/sense/charisma 2d6.
+- *Abilities:* **Bastion** — the watcher may guard against attacks targeting adjacent allies, becoming the attack's target.
+- *Spells:* gravity push, push / pull, gravity surge, pure land.
+- *Attacks:* **Palm strike** (5-meter reach): 5d8 — *forceful, holy*.
+
+The Watcher only has **2 moves** each round.
+
 ##### Summon princess of thorns
 
 *Legendary · 23 mana · 7 moves · 1 hour (240 rounds)*
@@ -5956,23 +5965,47 @@ You summon the protector of nature herself.
 
 The princess makes **3 moves**, acts directly after you — and commanding her costs no move.
 
-
-
-##### Summon Watcher
-*Master · 14 mana · 6 moves · 10 minutes (40 rounds)*
-
-You summon a guardian spirit that acts as a safe harbor to your allies during combat.
-- *Stats:* size 5, resilience 15, evasion 1, damage reduction −2, unphased 6, movement 0 m, mana 10.
-- *Attributes:* power 3d8, speed 1d4, endurance 3d12, willpower 2d8, intellect/sense/charisma 2d6.
-- *Abilities:* **Bastion** — the watcher may guard against attacks targeting adjacent allies, becoming the attack's target.
-- *Spells:* gravity push, push / pull, gravity surge, pure land.
-- *Attacks:* **Palm strike** (5-meter reach): 5d8 — *forceful, holy*.
-
-The Watcher only has **2 moves** each round.
-
-
-
 #### Beast summoning spells
+
+##### Summon lesser aquatic beast
+
+*Beginner · 3 mana · 3 moves · 1 hour (240 rounds)*
+
+You summon a **size 3** shark, crocodile or other large water predator.
+
+- *Stats:* resilience 7, evasion 1, damage reduction −1, unphased 1, movement 15 m (swim), mana 5.
+- *Attributes:* power 2d8, speed 1d8, endurance 3d6, willpower/intellect/charisma 1d6, sense 1d8.
+- *Abilities:* **Water breathing** — survives underwater indefinitely. **Swimmer** *(optional)* — +1d8 to underwater rolls and +10 m movement underwater. **Hampered by land** *(mandatory if swimmer is taken)* — movement drops to 1 meter on land.
+- *Attacks:* **Bite** (short reach, *brutal*): 3d8 — grapples the target on a hit.
+
+The beast acts directly after you, making **2 moves** each round.
+
+##### Summon lesser land beast
+
+*Beginner · 4 mana · 5 moves · 1 hour (240 rounds)*
+
+You summon a **size 2** pack hunter — a wolf, a fox, or something similar.
+
+- *Stats:* resilience 5, evasion 2, unphased 1, movement 15 m, mana 5.
+- *Attributes:* power 2d6, speed 2d4, endurance 1d8, willpower/intellect/charisma 1d4, sense 1d10.
+- *Attacks:* **Bite** (short reach, *armor breaker*): 2d6+1d8. **Claw** (medium reach, *bladed*): 2d6+1d8.
+- *Spells:* *lesser strength* casts itself on the beast, free of mana, when it becomes heavily wounded.
+
+The beast follows you and acts immediately after your turn; commanding it costs you 1 move. It makes **2 moves** — and knows the **mad dash** talent.
+
+##### Summon lesser sky beast
+
+*Beginner · 2 mana · 4 moves · 1 hour (240 rounds)*
+
+You summon a **size 1** hawk, owl or other small flying beast.
+
+- *Stats:* resilience 2, evasion 2, unphased 1, movement 30 m, mana 4.
+- *Attributes:* power 1d6, speed 1d12, endurance 1d4, sense 1d10, willpower/intellect/charisma 1d6.
+- *Abilities:* **Fly** — flies when it strides. **Flyby** — at the start or end of its turn, it may fly up to 15 meters.
+- *Attacks:* **Talons** (short reach): 2d6 — *bladed, bleed*.
+- *Spells:* *mana dash* casts itself on the beast when it becomes heavily wounded.
+
+The lesser sky beast makes **1 move** each round, acting right after your turn.
 
 ##### Call of the wilds
 
@@ -6001,32 +6034,6 @@ You summon a **size 4** ancient beast — one of the giant animals of old, the o
 
 The beast follows you and acts immediately after your turn; commanding it costs you 1 move. It makes **3 moves**, may take up to 2 different hostile moves per turn — and knows the complete **Raider** talent tree.
 
-##### Summon lesser aquatic beast
-
-*Beginner · 3 mana · 3 moves · 1 hour (240 rounds)*
-
-You summon a **size 3** shark, crocodile or other large water predator.
-
-- *Stats:* resilience 7, evasion 1, damage reduction −1, unphased 1, movement 15 m (swim), mana 5.
-- *Attributes:* power 2d8, speed 1d8, endurance 3d6, willpower/intellect/charisma 1d6, sense 1d8.
-- *Abilities:* **Water breathing** — survives underwater indefinitely. **Swimmer** *(optional)* — +1d8 to underwater rolls and +10 m movement underwater. **Hampered by land** *(mandatory if swimmer is taken)* — movement drops to 1 meter on land.
-- *Attacks:* **Bite** (short reach, *brutal*): 3d8 — grapples the target on a hit.
-
-The beast acts directly after you, making **2 moves** each round.
-
-##### Summon lesser land beast
-
-*Beginner · 4 mana · 5 moves · 1 hour (240 rounds)*
-
-You summon a **size 2** pack hunter — a wolf, a fox, or something similar.
-
-- *Stats:* resilience 5, evasion 2, unphased 1, movement 15 m, mana 5.
-- *Attributes:* power 2d6, speed 2d4, endurance 1d8, willpower/intellect/charisma 1d4, sense 1d10.
-- *Attacks:* **Bite** (short reach, *armor breaker*): 2d6+1d8. **Claw** (medium reach, *bladed*): 2d6+1d8.
-- *Spells:* *lesser strength* casts itself on the beast, free of mana, when it becomes heavily wounded.
-
-The beast follows you and acts immediately after your turn; commanding it costs you 1 move. It makes **2 moves** — and knows the **mad dash** talent.
-
 ##### Summon mythical beast
 
 *Legendary · 14 mana · 6 moves · 10 minutes (40 rounds)*
@@ -6038,20 +6045,6 @@ You summon the essence of one of five spirits. The base essence: **15 resilience
 - **Thunder boar** — 30 resilience, 2 evasion, −1 damage reduction, 10 m movement. *Storm's charge:* draw a line 3 meters wide and 10 long — creatures in it take 6 electric damage, every wall and barrier in it is **destroyed**, and the boar moves to the line's end.
 - **Evening owl** — 10 resilience, 6 evasion, 40 m movement. *Nightshade:* one creature within 2 meters is **blinded** and takes 11 damage (ignoring damage reduction); if the owl moved before this, it may move again up to 20 meters.
 - **Dawn lion** — 40 resilience, −2 damage reduction, 20 m movement, size 7. *Sun's roar:* all allies within 5 meters gain **+2d8** to the first roll of their next turn.
-
-##### Summon lesser sky beast
-
-*Beginner · 2 mana · 4 moves · 1 hour (240 rounds)*
-
-You summon a **size 1** hawk, owl or other small flying beast.
-
-- *Stats:* resilience 2, evasion 2, unphased 1, movement 30 m, mana 4.
-- *Attributes:* power 1d6, speed 1d12, endurance 1d4, sense 1d10, willpower/intellect/charisma 1d6.
-- *Abilities:* **Fly** — flies when it strides. **Flyby** — at the start or end of its turn, it may fly up to 15 meters.
-- *Attacks:* **Talons** (short reach): 2d6 — *bladed, bleed*.
-- *Spells:* *mana dash* casts itself on the beast when it becomes heavily wounded.
-
-The lesser sky beast makes **1 move** each round, acting right after your turn.
 
 #### Celestial summoning spells
 
@@ -6067,20 +6060,17 @@ You summon a tiny manifestation of the Holy Spirit to assist you.
 
 The holy spirit makes **2 moves** on its turn, and acts after you end your turn.
 
+##### Summon lesser monarch
 
-##### Summon a segment of the Holy Spirit
+*Beginner · 5 mana · 4 moves · 10 minutes (40 rounds)*
 
-*Master · 10 mana · 4 moves · 10 minutes (40 rounds)*
+You summon a lesser celestial to assist you.
 
-You summon a sizable manifestation of the Holy Spirit to assist you.
+- *Stats:* resilience 4, evasion 1, damage reduction −1, unphased 1, movement 10 m.
+- *Attributes:* power/speed/endurance 1d4, willpower/intellect/charisma 2d8, sense 2d6.
+- *Abilities:* **Boost** — one ally within 10 meters strides. **Encourage** — one ally within 15 meters gains +1d6 on its next hostile move. **Banish** — one enemy within 20 meters is **weakened** until the end of the current round. **Purify** — one ally within 5 meters is healed of one negative condition.
 
-- *Stats:* size 3, resilience 5, evasion 5, damage reduction 0, unphased 10, movement 20 m.
-- *Attributes:* power/endurance 1d6, speed 3d12, willpower/intellect/charisma 2d10, sense 2d6.
-- *Abilities:* **Intangible** — this summon can occupy the space of another creature. **Holy fire** — as a part of the Holy Spirit, it extinguishes all impurities: any creature that starts its turn occupying the same space as this summon takes 2 continual holy damage.
-- *Attacks:* **Conflagrate** (2-meter reach; usable against a creature whose space the segment occupies): 7d6 — *holy, whirlwind*. On hit, deals an additional 2 continual holy damage.
-
-The holy spirit makes **2 moves** on its turn, and acts after you end your turn.
-
+The monarch has **1 move**, acts right after your turn, and spends it to activate one ability — or to move.
 
 ##### Summon battle saint
 
@@ -6095,19 +6085,6 @@ You summon a divine warrior to inspire others in battle.
 
 The battle saint has **2 moves** and moves after you finish your turn.
 
-
-##### Summon lesser monarch
-
-*Beginner · 5 mana · 4 moves · 10 minutes (40 rounds)*
-
-You summon a lesser celestial to assist you.
-
-- *Stats:* resilience 4, evasion 1, damage reduction −1, unphased 1, movement 10 m.
-- *Attributes:* power/speed/endurance 1d4, willpower/intellect/charisma 2d8, sense 2d6.
-- *Abilities:* **Boost** — one ally within 10 meters strides. **Encourage** — one ally within 15 meters gains +1d6 on its next hostile move. **Banish** — one enemy within 20 meters is **weakened** until the end of the current round. **Purify** — one ally within 5 meters is healed of one negative condition.
-
-The monarch has **1 move**, acts right after your turn, and spends it to activate one ability — or to move.
-
 ##### Summon monarch
 
 *Advanced · 8 mana · 5 moves · 10 minutes (40 rounds)*
@@ -6119,6 +6096,19 @@ You summon a celestial to help and command your allies in combat.
 - *Abilities:* **Charge** — one ally within 15 meters strides. **Empower** — one ally within 30 meters gains +1d8 on its next hostile move. **Cleanse** — one ally within 10 meters is healed of **all** negative effects. **Excommunicate** — one enemy within 40 meters is **weakened** until it evades.
 
 The monarch has **1 move**, acts right after your turn — and activates one ability **automatically** at the start of every round it remains summoned.
+
+##### Summon a segment of the Holy Spirit
+
+*Master · 10 mana · 4 moves · 10 minutes (40 rounds)*
+
+You summon a sizable manifestation of the Holy Spirit to assist you.
+
+- *Stats:* size 3, resilience 5, evasion 5, damage reduction 0, unphased 10, movement 20 m.
+- *Attributes:* power/endurance 1d6, speed 3d12, willpower/intellect/charisma 2d10, sense 2d6.
+- *Abilities:* **Intangible** — this summon can occupy the space of another creature. **Holy fire** — as a part of the Holy Spirit, it extinguishes all impurities: any creature that starts its turn occupying the same space as this summon takes 2 continual holy damage.
+- *Attacks:* **Conflagrate** (2-meter reach; usable against a creature whose space the segment occupies): 7d6 — *holy, whirlwind*. On hit, deals an additional 2 continual holy damage.
+
+The holy spirit makes **2 moves** on its turn, and acts after you end your turn.
 
 ##### Summon procession
 
@@ -6135,7 +6125,9 @@ You summon- What did you summon? Is that really a servant of God? Even text cann
 
 - *Stats:* Resilience: 99  Evasion: 0   damage reduction: 0  Unphased: 0  Movement: 7 meters Mana: 7 size 7
 - *Attributes:* Power, speed, endurance, will, intellect, charisma, sense: 7d12
-- *Abilities:* **For there shall no man see me, and live:** If this creature is within line of sight of anything, it forces them to become blinded, even if they are immune to the condition. If a target affected by this ability forcibly removes the blind condition and still has the celestial in line of sight they become a **pillar of salt**. **…with twain he covered his face, and with twain he covered his feet, and with twain he did fly:** At the start of its turn the celestial can cover itself, disabling the “For there shall no man see me, and live” ability.**…sun turned to darkness, moon to blood, stars withhold their light — end-times darkening of the sky:** The sun, moon and stars avert their gazes, for their repentance shall last eternal. Darkness falls on the battlefield for it becomes a blind spot of the gods
+- *Abilities:* **For there shall no man see me, and live:** If this creature is within line of sight of anything, it forces them to become blinded, even if they are immune to the condition. If a target affected by this ability forcibly removes the blind condition and still has the celestial in line of sight they become a **pillar of salt**. 
+- **…with twain he covered his face, and with twain he covered his feet, and with twain he did fly:** At the start of its turn the celestial can cover itself, disabling the “For there shall no man see me, and live” ability.
+- **…sun turned to darkness, moon to blood, stars withhold their light — end-times darkening of the sky:** The sun, moon and stars avert their gazes, for their repentance shall last eternal. Darkness falls on the battlefield for it becomes a blind spot of the gods
 - **…whither the spirit was to go, they went…** - Its march eternal, unimpeded by the laws of the gods. The celestial’s movement cannot be changed or modified in any way. It can move wherever it wants, forwards, backwards, up, down, as gravity averts its gaze from it.
 - *Attacks:* And it came to pass... she looked back... and she became a pillar of salt: **7d10 to hit**. 30m reach. Removes blind condition on hit.
 
