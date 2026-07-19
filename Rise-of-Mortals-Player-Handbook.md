@@ -4058,7 +4058,7 @@ Blood mages imbue their bodies with demonic energy — improving their physical 
 
 **2. Sanguine burst** — using *demonic blood* wraps you in a burst of dark energy: at the end of your turn it explodes, dealing every creature within 5 meters damage equal to the **total damage you took from demonic blood this turn**.
 
-**3. Oni's blood** — you may take 1 extra damage before a *sanguine burst* activates to lace it with a tag: *frost*, *electric*, *continual fire damage*, or *blind inflicting*.
+**3. Oni's blood** — you may lace a sanguine burst with a tag: *frost*, *electric*, *continual fire damage*, or *blind inflicting*. Doing so costs you 1 damage just before the burst activates — this damage does not add to the burst's total.
 
 **4. Devil berserker** — while you are **heavily wounded**, *sanguine burst* gains *armor destroyer* and deals 2 more damage.
 
@@ -4096,7 +4096,7 @@ Descendants of vampires, or practitioners of the dark arts — these dangerous o
 
 Desperate folk who sold their soul for power — a twisted reflection of their former self, fixated on the one goal they gave their life for.
 
-**1. Despair** — spend a move and 2 mana to summon a **shadow** in a free space within 30 meters: 1 resilience, no unphased, no damage reduction, your size, and it counts your charisma as its speed for evasion. Shadows take no turns — instead, if you took the *start casting* or *finish casting* move this round, each shadow may move 5 meters and deal **armor destroying damage** to one creature in its reach when the round ends, scaled inversely by reach: short — 5 damage, medium — 3, long — 1. You may control up to **5 shadows**.
+**1. Despair** — spend a move and 2 mana to summon a shadow in a space within 30 meters not occupied by a creature or an object larger than size 1: 1 resilience, no unphased, no damage reduction, your size, and it counts your charisma as its speed for evasion. Shadows take no turns — instead, if you took the start casting or finish casting move this round, each shadow may move 5 meters and deal **armor destroying damage** to one creature in its reach when the round ends, scaled inversely by reach: short — 5 damage, medium — 3, long — 1. You may control up to **5 shadows** — and cannot summon a sixth while at that limit.
 
 **2. Gloom** — when you finish casting a spell, you may detonate up to 3 of your shadows: every creature within a dying shadow's reach is **restrained** (a move + power check, test score 1, to escape — +1 per additional exploding shadow overlapping the creature).
 
