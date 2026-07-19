@@ -555,6 +555,8 @@ Ben is ready for the road: he tracks his mark for days (*tracker*, *on the move*
 
 ## Roleplay
 
+![Roleplay](images/Roleplay.webp)
+
 This chapter will cover:
 
 - Roleplaying: the basics
@@ -1163,6 +1165,8 @@ This rule is meant for extremely brutal games only, and should be discussed with
 
 ## Traveling: The Part Most of You Will Skip
 
+![Traveling](images/Travel.webp)
+
 This chapter will cover:
 
 - Travel pace: the part most of you will probably read just to say how many days the trip takes
@@ -1475,6 +1479,8 @@ Not every safe haven is a rural village or a medieval city — some are speciali
 **Abandoned:** a deserted haven has little to offer. It counts as one type lower (an abandoned city is a town), and *acquire connections*, *haggle* and *secure provisions* are unavailable.
 
 ## Equipment
+
+![Equipment](images/Equipment.webp)
 
 This chapter will cover:
 
@@ -2098,6 +2104,8 @@ Effects of the same type don't stack within one activation. All charges return w
 - If you failed to convince it, you cannot make hostile moves with Astronimical.
 
 ## Magic: Glowing Rocks and the Like
+
+![Magic](images/Magic.webp)
 
 In Rise of Mortals, magic is a common concept, wielded by many different creatures. Plenty of player characters will want it — as the core of their hero, or as a way to augment powers they already hold.
 
