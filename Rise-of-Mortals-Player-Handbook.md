@@ -669,7 +669,7 @@ Common activities and their focus:
 
 ## Combat
 
-![Combat](images/Combat.png)
+![Combat](images/Combat.webp)
 
 This chapter will cover:
 
