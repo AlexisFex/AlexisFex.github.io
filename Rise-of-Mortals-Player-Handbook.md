@@ -5996,10 +5996,14 @@ Bio:
 
 ## Credits
 
-**Creative director and co-creator:** Adam de-mayo (aka Mayomaster)
+**Creative director and co-creator:** Adam Mayomaster
 
 **Co-creator and head designer:** AlexisFex
 
 **First beta tester and player of the system:** GloryMyrr
 
 **Other beta testers:** Rokt12, Alon Levi, Ofer Eliahou Schttner, Liron, Turquiseapple, Shayen, DisguisedDuck, Nadav Solomon.
+
+---
+
+<a href="https://riseofmortals.github.io/">Rise of Mortals</a> © 2026 by <a href="https://github.com/RiseOfMortals">Adam Mayomaster &amp; AlexisFex</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
