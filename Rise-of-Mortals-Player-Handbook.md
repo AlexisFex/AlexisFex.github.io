@@ -2847,16 +2847,17 @@ Masters of the blade, wielding legendary techniques with explosive speed and pow
 
 - *Special prerequisite: only when attacking with a tanto, arming sword, falchion or war sword.*
 
-**1. Flash step** — when making a hostile move, you may spend 2 moves instead of 1 to perform a flash step: **teleport up to double your movement speed** before the attack, and gain +2d4 to the roll. You may also flash step after a successful interception by spending 1 more move — this grants the teleport only, with no attack and no bonus dice.
+**1. Flash step** — when making a hostile move, you may spend 3 moves instead of 1 to perform a flash step: **teleport up to double your movement speed** before the attack, and gain +2d4 to the roll.
+You may also flash step after a successful interception by spending 1 more move — this grants the teleport only, with no attack and no bonus dice.
 
-**2. Perfect cut** — attacking out of a flash step, you may trade one or both of its d4s for benefits:
+**2. Perfect cut** — When using an attack through the flash step talent you may trade one or both of its d4s for benefits:
 
-- the attack gains *deadly* (1 die);
-- the attack treats the target as **unarmored** (2 dice);
-- you teleport 10 meters after the attack (1 die);
-- the attack cannot be intercepted or guarded (1 die).
+- The attack gains *Deadly* (1 die);
+- The attack treats the target as **Unarmored** for the sake of the *Bladed* trait. Damage Reduction still reduces incoming damage normally (2 dice);
+- You teleport 10 meters after the attack (1 die);
+- The attack cannot be intercepted or guarded against (1 die).
 
-**3. Crestwater slash** — once per battle, when you pay for a flash step, you perform it **three times in a row**: three teleports, each followed by its own attack with its own +2d4 — and *perfect cut* may be applied to each separately.
+**3. Crestwater slash** — Once per battle, when you use flash step, you may perform it **three times in a row**: three teleports, each followed by its own attack with its own +2d4 — and *Perfect cut* may be applied to each separately.
 
 ##### The Pitcher
 
