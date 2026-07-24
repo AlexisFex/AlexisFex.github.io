@@ -1524,7 +1524,7 @@ Thrown weapons count as both melee and ranged, and can use either power or speed
 
 - If you end your turn without attacking, you may charge the branch with spiritual energy. The next time it hits a **heavily wounded** creature, that creature makes a resist roll (rolling its endurance and willpower dice combined) against the attack's damage as the test score — on a failure, it is **knocked out**.
 
-Both special melee weapons take **3 inventory spaces** to carry.
+Special weapons take **3 inventory spaces** to carry, *hand mortar* also requires ammunition (1 inventory space).
 
 ##### Weapon variants
 
@@ -2847,14 +2847,14 @@ Masters of the blade, wielding legendary techniques with explosive speed and pow
 
 - *Special prerequisite: only when attacking with a tanto, arming sword, falchion or war sword.*
 
-**1. Flash step** — when making a hostile move, you may spend 3 moves instead of 1 to perform a flash step: **teleport up to double your movement speed** before the attack, and gain +2d4 to the roll.
+**1. Flash step** — when making a hostile move, you may spend 2 moves instead of 1 to perform a flash step: **teleport up to your movement speed** before the attack, and gain +2d4 to the roll.
 You may also flash step after a successful interception by spending 1 more move — this grants the teleport only, with no attack and no bonus dice.
 
 **2. Perfect cut** — When using an attack through the flash step talent you may trade one or both of its d4s for benefits:
 
 - The attack gains *Deadly* (1 die);
 - The attack treats the target as **Unarmored** for the sake of the *Bladed* trait. Damage Reduction still reduces incoming damage normally (2 dice);
-- You teleport 10 meters after the attack (1 die);
+- You teleport 5 meters after the attack (1 die);
 - The attack cannot be intercepted or guarded against (1 die).
 
 **3. Crestwater slash** — Once per battle, when you use flash step, you may perform it **three times in a row**: three teleports, each followed by its own attack with its own +2d4 — and *Perfect cut* may be applied to each separately.
@@ -3018,7 +3018,7 @@ The finest mechanics of the modern age created something magnificent in the hand
 
 - reduce the weapon's reload count by 2;
 - the attack ignores cover;
-- the attack gains the *explosive* enchantment.
+- you can push yourself 5 meters back after shooting.
 
 **3. Booming terror** — once per combat, when your hand mortar or siege weapon damages creatures, you may declare a booming terror: every damaged creature is **intimidated** by you (test score 3 to remove), loses **5 unphased** and **1 resilience** — plus 2 more of each per quality rank of your weapon above standard.
 
@@ -4031,7 +4031,8 @@ Those who dedicate their life to one of the new gods — working, preaching, adv
 
 A holy mage of talismans — consecrating the ground in preparation for powerful rituals.
 
-**1. Protective seal** — when a round starts, pay 2 mana to place a **holy seal** in a free space within 2 meters of you (or place one as a move, free of mana). When a round ends, you may extinguish **all existing seals within 10 meters of a creature** — provided there are at least as many as the spell requires — to cast that spell on them without paying mana:
+**1. Protective seal** — When you cast a spell targeting another creature using the “protective seal” talent, you may declare the area within a 10m radius of your target as “holy ground”. Creatures standing in holy ground count as “holy seals” for the purposes of casting a spell through the “protective seal” talent.
+In addition, you gain access to additional spells you can cast through the use of “holy seals” while standing on holy ground:
 
 - *Spirit shield* — 3 seals. *Gravity surge* — 2. *Lesser grit* — 4. *Partial invisibility* — 3. *Innocent fog* — 2 (the target counts as the caster).
 
@@ -4039,7 +4040,8 @@ Every seal in the radius burns, even beyond the spell's requirement.
 
 Spells cast through seals are untouched by *true believer*.
 
-**2. Temple overseer** *(2 points)* — casting on a creature through *protective seal*, you may consecrate a 10-meter radius around the target as **holy ground** (one at a time; +3 meters of radius per die of your casting attribute). Creatures standing on holy ground **count as holy seals** — and standing on it yourself unlocks more seal-spells: *Force cloak* — 4 seals, *Elemental shield* — 3, *Guardian spirit* — 5, *Armored mind* — 4.
+**2. Temple overseer** *(2 points)* — When you use an enemy that is standing in holy ground as a seal to cast a spell through the “protective seal” talent, you cause them to become restrained until the end of the next round(test score of 2 to remove).
+When you use an ally that is standing on holy ground as a seal, you may remove one temporary negative condition affecting them: *Force cloak* — 4 seals, *Elemental shield* — 3, *Guardian spirit* — 5, *Armored mind* — 4.
 
 **3. Sealed potential** — spending an **enemy** on holy ground as a seal restrains it until the end of the next round (test score 2 to escape). Spending an **ally** removes one temporary negative condition from them.
 
